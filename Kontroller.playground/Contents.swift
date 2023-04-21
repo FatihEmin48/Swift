@@ -27,11 +27,16 @@ enum PasswordOption{
 var passwordTwo: PasswordOption = .zayif
 
 switch passwordTwo{
+    
 case .zayif:
     print("Şifreniz çok kısa, Lütfen yeni bir şifre belirleyiniz.")
+    
 case .dogru:
     print("Şifreniz çok zayıf")
+    
 case .uyusmuyor:
     print("Şifrenizi giriniz.")
+    
 }// enumda ve switchte 3 tane tanımladığımız için default yazmamıza gerek kalmıyor
 //default case yazarsak enumda 5 tane tanımladık switchte 3 diğer 2 tanımlanmayan defaulta düşer
+
